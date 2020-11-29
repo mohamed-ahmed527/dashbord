@@ -1,0 +1,44 @@
+/*****************************media**************************/
+
+/**************mediam***********/
+@media(min-width:768px),(max-width:992px){
+    
+    .menu{
+        display: block;
+    }
+    .logo{
+        width: 95%;
+        float: right;
+    }
+    nav{
+        width: 100%;
+        margin-right: 0;
+    }
+    nav ul{
+        display: none;
+    }
+    body >.container{
+        width: 96%;
+        margin: auto;
+        margin-right: 2%;
+    }
+    
+}
+/**************larg**************/
+@media (min-width:993px){
+    .menu{
+        display: none;
+        }
+    nav{
+        width: 14%;
+        margin-left: 1%;
+        overflow: hidden;
+        float: right;
+    }
+    nav ul{
+        display: block;
+    }
+    body >.container{
+        width: 82%;
+    }
+}
